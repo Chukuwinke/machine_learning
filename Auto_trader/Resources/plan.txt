@@ -1,0 +1,9 @@
+PREPROCESSING DATA:
+
+1) cleaning data:
+	replace null values NAN with mean of column in case of numerical and most common value in case of categorical.
+	change numerical column with object data type to float or in data type
+
+2) standardize and normalize data:
+	for numerical data use log normalization to reduce variance between each column values important functions = ( var(), log() )
+	scaling the numerical data using sickit learn preprocing standardscalar (i need to learn more about this)
